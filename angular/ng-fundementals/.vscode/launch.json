@@ -15,6 +15,18 @@
       "request": "launch",
       "preLaunchTask": "npm: test",
       "url": "http://localhost:9876/debug.html"
+    },
+    {
+      "type": "devtools-for-chrome",
+      "request": "launch",
+      "name": "Launch Chrome DevTools",
+      "file": "${workspaceFolder}/index.html"
+    },
+    {
+      "type": "devtools-for-chrome",
+      "request": "attach",
+      "name": "Attach Chrome DevTools",
+      "url": "http://localhost:8000/"
     }
   ]
 }
